@@ -1,0 +1,824 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'resume-cli' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /Users/noevil/Sync/Project/resume/package.json
+5 verbose read json /Users/noevil/Sync/Project/resume/package.json
+6 verbose cache add [ 'resume-cli', null ]
+7 verbose cache add name=undefined spec="resume-cli" args=["resume-cli",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'resume-cli',
+8 verbose parsed url   path: 'resume-cli',
+8 verbose parsed url   href: 'resume-cli' }
+9 silly lockFile 71bc606c-resume-cli resume-cli
+10 verbose lock resume-cli /Users/noevil/.npm/71bc606c-resume-cli.lock
+11 silly lockFile 71bc606c-resume-cli resume-cli
+12 silly lockFile 71bc606c-resume-cli resume-cli
+13 verbose addNamed [ 'resume-cli', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile e73b2cad-resume-cli resume-cli@
+16 verbose lock resume-cli@ /Users/noevil/.npm/e73b2cad-resume-cli.lock
+17 silly addNameRange { name: 'resume-cli', range: '', hasData: false }
+18 verbose url raw resume-cli
+19 verbose url resolving [ 'https://registry.npmjs.org/', './resume-cli' ]
+20 verbose url resolved https://registry.npmjs.org/resume-cli
+21 info trying registry request attempt 1 at 19:23:27
+22 http GET https://registry.npmjs.org/resume-cli
+23 http 200 https://registry.npmjs.org/resume-cli
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Tue, 26 Aug 2014 11:23:30 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"8TMU14LJ824K1UB97DTNMOGEN"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '72996',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1409052209.340576,VS0,VE1057',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'resume-cli', range: '', hasData: true }
+26 silly addNameRange versions [ 'resume-cli',
+26 silly addNameRange   [ '0.0.0',
+26 silly addNameRange     '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '0.0.7',
+26 silly addNameRange     '0.0.8',
+26 silly addNameRange     '0.0.9',
+26 silly addNameRange     '0.0.11',
+26 silly addNameRange     '0.0.12',
+26 silly addNameRange     '0.0.13',
+26 silly addNameRange     '0.0.14',
+26 silly addNameRange     '0.0.15',
+26 silly addNameRange     '0.0.16',
+26 silly addNameRange     '0.0.17',
+26 silly addNameRange     '0.0.18',
+26 silly addNameRange     '0.0.19',
+26 silly addNameRange     '0.0.20',
+26 silly addNameRange     '0.0.21',
+26 silly addNameRange     '0.0.22',
+26 silly addNameRange     '0.0.23',
+26 silly addNameRange     '0.0.24',
+26 silly addNameRange     '0.0.25',
+26 silly addNameRange     '0.0.26',
+26 silly addNameRange     '0.0.27',
+26 silly addNameRange     '0.0.28',
+26 silly addNameRange     '0.0.29',
+26 silly addNameRange     '0.0.30',
+26 silly addNameRange     '0.0.31',
+26 silly addNameRange     '0.0.32',
+26 silly addNameRange     '0.0.33',
+26 silly addNameRange     '0.1.33',
+26 silly addNameRange     '0.1.32',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.2.5',
+26 silly addNameRange     '0.2.6',
+26 silly addNameRange     '0.2.7',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.3.5',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.3.7',
+26 silly addNameRange     '0.3.8',
+26 silly addNameRange     '0.3.9' ] ]
+27 verbose addNamed [ 'resume-cli', '0.3.9' ]
+28 verbose addNamed [ '0.3.9', '0.3.9' ]
+29 silly lockFile 5bd89e64-resume-cli-0-3-9 resume-cli@0.3.9
+30 verbose lock resume-cli@0.3.9 /Users/noevil/.npm/5bd89e64-resume-cli-0-3-9.lock
+31 silly lockFile 34ee0752--resume-cli-resume-cli-0-3-9-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz
+32 verbose lock https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz /Users/noevil/.npm/34ee0752--resume-cli-resume-cli-0-3-9-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz',
+33 verbose addRemoteTarball   'be3e6863c9ef4b2134692dbbcb8f05bbac30f0a2' ]
+34 info retry fetch attempt 1 at 19:23:31
+35 verbose fetch to= /var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz
+36 http GET https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz
+37 http 200 https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz
+38 verbose tar unpack /var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz
+39 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+40 verbose lock tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package /Users/noevil/.npm/4cdb2cab-11454-0-7856323109008372-package.lock
+41 silly lockFile 1b99ca91-11454-0-7856323109008372-tmp-tgz tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz
+42 verbose lock tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz /Users/noevil/.npm/1b99ca91-11454-0-7856323109008372-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+50 silly gunzTarPerm extractEntry LICENSE
+51 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm modified mode [ 'index.js', 509, 493 ]
+54 silly gunzTarPerm extractEntry .travis.yml
+55 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+56 silly gunzTarPerm extractEntry lib/exportResume.js
+57 silly gunzTarPerm modified mode [ 'lib/exportResume.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry lib/init.js
+59 silly gunzTarPerm modified mode [ 'lib/init.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry lib/login.js
+61 silly gunzTarPerm modified mode [ 'lib/login.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry lib/publish.js
+63 silly gunzTarPerm modified mode [ 'lib/publish.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry lib/index.js
+65 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry lib/serve.js
+67 silly gunzTarPerm modified mode [ 'lib/serve.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry lib/settings.js
+69 silly gunzTarPerm modified mode [ 'lib/settings.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry lib/test.js
+71 silly gunzTarPerm modified mode [ 'lib/test.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry lib/version.js
+73 silly gunzTarPerm modified mode [ 'lib/version.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry lib/waterfallArray.js
+75 silly gunzTarPerm modified mode [ 'lib/waterfallArray.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry lib/register.js
+77 silly gunzTarPerm modified mode [ 'lib/register.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry test/index.js
+79 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+80 verbose read json /var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package/package.json
+81 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+82 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+83 silly lockFile 1b99ca91-11454-0-7856323109008372-tmp-tgz tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz
+84 silly lockFile 1b99ca91-11454-0-7856323109008372-tmp-tgz tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/tmp.tgz
+85 verbose from cache /var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package/package.json
+86 verbose tar pack [ '/Users/noevil/.npm/resume-cli/0.3.9/package.tgz',
+86 verbose tar pack   '/var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package' ]
+87 verbose tarball /Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+88 verbose folder /var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+89 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+90 verbose lock tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package /Users/noevil/.npm/4cdb2cab-11454-0-7856323109008372-package.lock
+91 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+92 verbose lock tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz /Users/noevil/.npm/c1019e82-npm-resume-cli-0-3-9-package-tgz.lock
+93 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+94 silly lockFile 4cdb2cab-11454-0-7856323109008372-package tar:///var/folders/c_/q2n6lhrj1hd1dbkvlzv_lvs00000gn/T/npm-6456/1409052211454-0.7856323109008372/package
+95 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+96 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+97 silly lockFile 18c2a7b1-vil-npm-resume-cli-0-3-9-package /Users/noevil/.npm/resume-cli/0.3.9/package
+98 verbose lock /Users/noevil/.npm/resume-cli/0.3.9/package /Users/noevil/.npm/18c2a7b1-vil-npm-resume-cli-0-3-9-package.lock
+99 silly lockFile 18c2a7b1-vil-npm-resume-cli-0-3-9-package /Users/noevil/.npm/resume-cli/0.3.9/package
+100 silly lockFile 18c2a7b1-vil-npm-resume-cli-0-3-9-package /Users/noevil/.npm/resume-cli/0.3.9/package
+101 verbose tar unpack /Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+102 silly lockFile 6de38561-vil-npm-resume-cli-0-3-9-package tar:///Users/noevil/.npm/resume-cli/0.3.9/package
+103 verbose lock tar:///Users/noevil/.npm/resume-cli/0.3.9/package /Users/noevil/.npm/6de38561-vil-npm-resume-cli-0-3-9-package.lock
+104 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+105 verbose lock tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz /Users/noevil/.npm/c1019e82-npm-resume-cli-0-3-9-package-tgz.lock
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry LICENSE
+111 silly gunzTarPerm extractEntry index.js
+112 silly gunzTarPerm extractEntry .travis.yml
+113 silly gunzTarPerm extractEntry lib/exportResume.js
+114 silly gunzTarPerm extractEntry lib/init.js
+115 silly gunzTarPerm extractEntry lib/login.js
+116 silly gunzTarPerm extractEntry lib/publish.js
+117 silly gunzTarPerm extractEntry lib/index.js
+118 silly gunzTarPerm extractEntry lib/serve.js
+119 silly gunzTarPerm extractEntry lib/settings.js
+120 silly gunzTarPerm extractEntry lib/test.js
+121 silly gunzTarPerm extractEntry lib/version.js
+122 silly gunzTarPerm extractEntry lib/waterfallArray.js
+123 silly gunzTarPerm extractEntry lib/register.js
+124 silly gunzTarPerm extractEntry test/index.js
+125 verbose read json /Users/noevil/.npm/resume-cli/0.3.9/package/package.json
+126 silly lockFile 6de38561-vil-npm-resume-cli-0-3-9-package tar:///Users/noevil/.npm/resume-cli/0.3.9/package
+127 silly lockFile 6de38561-vil-npm-resume-cli-0-3-9-package tar:///Users/noevil/.npm/resume-cli/0.3.9/package
+128 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+129 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+130 verbose from cache /Users/noevil/.npm/resume-cli/0.3.9/package/package.json
+131 verbose chmod /Users/noevil/.npm/resume-cli/0.3.9/package.tgz 644
+132 verbose chown /Users/noevil/.npm/resume-cli/0.3.9/package.tgz [ 501, 20 ]
+133 silly lockFile 34ee0752--resume-cli-resume-cli-0-3-9-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz
+134 silly lockFile 34ee0752--resume-cli-resume-cli-0-3-9-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz
+135 silly lockFile 5bd89e64-resume-cli-0-3-9 resume-cli@0.3.9
+136 silly lockFile 5bd89e64-resume-cli-0-3-9 resume-cli@0.3.9
+137 silly lockFile e73b2cad-resume-cli resume-cli@
+138 silly lockFile e73b2cad-resume-cli resume-cli@
+139 silly resolved [ { name: 'resume-cli',
+139 silly resolved     version: '0.3.9',
+139 silly resolved     description: 'The JSON Resume command line interface',
+139 silly resolved     author: '',
+139 silly resolved     main: 'index.js',
+139 silly resolved     scripts: { test: 'node ./test/index.js | tap-spec' },
+139 silly resolved     repository:
+139 silly resolved      { type: 'git',
+139 silly resolved        url: 'https://github.com/rolandnsharp/resume-cli.git' },
+139 silly resolved     license: 'MIT',
+139 silly resolved     bin: { resume: 'index.js' },
+139 silly resolved     preferGlobal: true,
+139 silly resolved     dependencies:
+139 silly resolved      { async: '^0.9.0',
+139 silly resolved        chalk: '^0.4.0',
+139 silly resolved        'cli-spinner': '^0.1.5',
+139 silly resolved        colors: '^0.6.2',
+139 silly resolved        commander: '^2.2.0',
+139 silly resolved        jsonlint: '^1.6.0',
+139 silly resolved        open: '0.0.5',
+139 silly resolved        read: '^1.0.5',
+139 silly resolved        'resume-schema': 'latest',
+139 silly resolved        'resume-to-html': 'latest',
+139 silly resolved        'resume-to-text': 'latest',
+139 silly resolved        superagent: '^0.18.0',
+139 silly resolved        'terminal-menu': '^0.3.2' },
+139 silly resolved     devDependencies: { 'tap-spec': '^0.2.0', tape: '^2.13.3' },
+139 silly resolved     readme: '# JSON Resume Command Line\n\n[![](https://api.travis-ci.org/jsonresume/resume-cli.svg)](http://travis-ci.org/jsonresume/resume-cli)\n\n### IRC\n\nEveryone working on the early stages of the project should join our Freenode channel:\n\n```\n#jsonresume on freenode\n```\n\nYou can use the web client [http://webchat.freenode.net/](http://webchat.freenode.net/).\n\n# Getting Started\n\n```\nnpm install -g resume-cli\n```\n\n[![](https://badge.fury.io/js/resume-cli.png)](https://www.npmjs.org/package/resume-cli)\n\n# Usage\n\n```\nresume --help\n```\n\nFor a complete list of options and commands.\n\n```\nresume init\n```\n\nCreates a new resume.json file in your current working directory.   \n\nComplete the resume.json with your text editor, following the schema available at:  \nhttp://jsonresume.org/\n\n```\nresume test\n```\n\nRuns your resume.json through our schema tests to ensure it complies with the standard and tries to identify where any errors may be occurring.\n\n```\nresume export [fileName]\n```\n\nExports your resume locally in a stylized html, markdown, or pdf format.\n\nUse the `--format` flag to specify file type. Example: `--format pdf`\n\nUse the `--theme <name>` flag to specify theme. Example: `--theme flat`  \n_A list of available themes can be found here: http://jsonresume.org/themes/_\n\n```\nresume register\n```\n\n_Registration is optional._\n\nTo publish your resume to your account with a custom domain extension at http://registry.jsonresume.org/, you will first need to acquire login credentials. \n\n```\nresume publish\n```\n\nThis command will guide you through the publish process.\nConsider using the theme flag to style your resume (Default: `flat`).\n\nExample: `resume publish --theme flat`\n\n```\nresume serve\n```\n\nStarts a web server that serves your local resume.json.  \nOptions: `--port <port>`, `--theme <name>`\n\nIf no theme is specified, it will try to locate a local `index.js` and call the `render()` function. This is useful when developing themes.\n\n## Community Projects\n\nAnyone working on projects for JSON Resume should submit a pull request and add themselves to the list.\n\n### LinkedIn Exporters\n* [Web based export](https://github.com/JMPerez/linkedin-to-json-resume) by [José Manuel Pérez](https://twitter.com/jmperezperez)\n* [CLI based export](https://github.com/mblarsen/resume-linkedin) by [Michael Bøcker-Larsen](https://twitter.com/mblarsen)\n\n### Web UI Builders\n* [Resume Edit](https://erming.github.io/resume-edit) by [Mattias Erming](https://github.com/erming)\n* [JSON Resume Web App](https://github.com/jonnykry/JSONResumeWebApp/tree/gh-pages) by [Jonny Krysh](https://github.com/jonnykry)\n',
+139 silly resolved     readmeFilename: 'README.md',
+139 silly resolved     bugs: { url: 'https://github.com/rolandnsharp/resume-cli/issues' },
+139 silly resolved     _id: 'resume-cli@0.3.9',
+139 silly resolved     dist: { shasum: '7799a00bee82baa54e1b209310ba6102ee763241' },
+139 silly resolved     _from: 'resume-cli@',
+139 silly resolved     _resolved: 'https://registry.npmjs.org/resume-cli/-/resume-cli-0.3.9.tgz' } ]
+140 info install resume-cli@0.3.9 into /Users/noevil/Sync/Project/resume
+141 info installOne resume-cli@0.3.9
+142 verbose from cache /Users/noevil/.npm/resume-cli/0.3.9/package/package.json
+143 info /Users/noevil/Sync/Project/resume/node_modules/resume-cli unbuild
+144 verbose read json /Users/noevil/Sync/Project/resume/node_modules/resume-cli/package.json
+145 verbose tar unpack /Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+146 silly lockFile 574e459f-t-resume-node-modules-resume-cli tar:///Users/noevil/Sync/Project/resume/node_modules/resume-cli
+147 verbose lock tar:///Users/noevil/Sync/Project/resume/node_modules/resume-cli /Users/noevil/.npm/574e459f-t-resume-node-modules-resume-cli.lock
+148 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+149 verbose lock tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz /Users/noevil/.npm/c1019e82-npm-resume-cli-0-3-9-package-tgz.lock
+150 silly gunzTarPerm modes [ '755', '644' ]
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm extractEntry .npmignore
+153 silly gunzTarPerm extractEntry README.md
+154 silly gunzTarPerm extractEntry LICENSE
+155 silly gunzTarPerm extractEntry index.js
+156 silly gunzTarPerm extractEntry .travis.yml
+157 silly gunzTarPerm extractEntry lib/exportResume.js
+158 silly gunzTarPerm extractEntry lib/init.js
+159 silly gunzTarPerm extractEntry lib/login.js
+160 silly gunzTarPerm extractEntry lib/publish.js
+161 silly gunzTarPerm extractEntry lib/index.js
+162 silly gunzTarPerm extractEntry lib/serve.js
+163 silly gunzTarPerm extractEntry lib/settings.js
+164 silly gunzTarPerm extractEntry lib/test.js
+165 silly gunzTarPerm extractEntry lib/version.js
+166 silly gunzTarPerm extractEntry lib/waterfallArray.js
+167 silly gunzTarPerm extractEntry lib/register.js
+168 silly gunzTarPerm extractEntry test/index.js
+169 verbose read json /Users/noevil/Sync/Project/resume/node_modules/resume-cli/package.json
+170 silly lockFile 574e459f-t-resume-node-modules-resume-cli tar:///Users/noevil/Sync/Project/resume/node_modules/resume-cli
+171 silly lockFile 574e459f-t-resume-node-modules-resume-cli tar:///Users/noevil/Sync/Project/resume/node_modules/resume-cli
+172 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+173 silly lockFile c1019e82-npm-resume-cli-0-3-9-package-tgz tar:///Users/noevil/.npm/resume-cli/0.3.9/package.tgz
+174 info preinstall resume-cli@0.3.9
+175 verbose from cache /Users/noevil/Sync/Project/resume/node_modules/resume-cli/package.json
+176 verbose readDependencies using package.json deps
+177 verbose from cache /Users/noevil/Sync/Project/resume/node_modules/resume-cli/package.json
+178 verbose readDependencies using package.json deps
+179 verbose cache add [ 'cli-spinner@^0.1.5', null ]
+180 verbose cache add name=undefined spec="cli-spinner@^0.1.5" args=["cli-spinner@^0.1.5",null]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: 'cli-spinner@^0.1.5',
+181 verbose parsed url   path: 'cli-spinner@^0.1.5',
+181 verbose parsed url   href: 'cli-spinner@^0.1.5' }
+182 verbose cache add name="cli-spinner" spec="^0.1.5" args=["cli-spinner","^0.1.5"]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: '^0.1.5',
+183 verbose parsed url   path: '^0.1.5',
+183 verbose parsed url   href: '^0.1.5' }
+184 verbose addNamed [ 'cli-spinner', '^0.1.5' ]
+185 verbose addNamed [ null, null ]
+186 silly lockFile 798fb3b5-cli-spinner-0-1-5 cli-spinner@^0.1.5
+187 verbose lock cli-spinner@^0.1.5 /Users/noevil/.npm/798fb3b5-cli-spinner-0-1-5.lock
+188 verbose cache add [ 'async@^0.9.0', null ]
+189 verbose cache add name=undefined spec="async@^0.9.0" args=["async@^0.9.0",null]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: 'async@^0.9.0',
+190 verbose parsed url   path: 'async@^0.9.0',
+190 verbose parsed url   href: 'async@^0.9.0' }
+191 verbose cache add name="async" spec="^0.9.0" args=["async","^0.9.0"]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: '^0.9.0',
+192 verbose parsed url   path: '^0.9.0',
+192 verbose parsed url   href: '^0.9.0' }
+193 verbose addNamed [ 'async', '^0.9.0' ]
+194 verbose addNamed [ null, null ]
+195 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+196 verbose lock async@^0.9.0 /Users/noevil/.npm/7f39d2c2-async-0-9-0.lock
+197 verbose cache add [ 'chalk@^0.4.0', null ]
+198 verbose cache add name=undefined spec="chalk@^0.4.0" args=["chalk@^0.4.0",null]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: 'chalk@^0.4.0',
+199 verbose parsed url   path: 'chalk@^0.4.0',
+199 verbose parsed url   href: 'chalk@^0.4.0' }
+200 verbose cache add name="chalk" spec="^0.4.0" args=["chalk","^0.4.0"]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: '^0.4.0',
+201 verbose parsed url   path: '^0.4.0',
+201 verbose parsed url   href: '^0.4.0' }
+202 verbose addNamed [ 'chalk', '^0.4.0' ]
+203 verbose addNamed [ null, null ]
+204 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+205 verbose lock chalk@^0.4.0 /Users/noevil/.npm/b2f4396d-chalk-0-4-0.lock
+206 info addNameTag [ 'cli-spinner', '^0.1.5' ]
+207 info addNameTag [ 'async', '^0.9.0' ]
+208 verbose cache add [ 'colors@^0.6.2', null ]
+209 verbose cache add name=undefined spec="colors@^0.6.2" args=["colors@^0.6.2",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'colors@^0.6.2',
+210 verbose parsed url   path: 'colors@^0.6.2',
+210 verbose parsed url   href: 'colors@^0.6.2' }
+211 verbose cache add name="colors" spec="^0.6.2" args=["colors","^0.6.2"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '^0.6.2',
+212 verbose parsed url   path: '^0.6.2',
+212 verbose parsed url   href: '^0.6.2' }
+213 verbose addNamed [ 'colors', '^0.6.2' ]
+214 verbose addNamed [ null, null ]
+215 silly lockFile dd7abdee-colors-0-6-2 colors@^0.6.2
+216 verbose lock colors@^0.6.2 /Users/noevil/.npm/dd7abdee-colors-0-6-2.lock
+217 verbose cache add [ 'commander@^2.2.0', null ]
+218 verbose cache add name=undefined spec="commander@^2.2.0" args=["commander@^2.2.0",null]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: 'commander@^2.2.0',
+219 verbose parsed url   path: 'commander@^2.2.0',
+219 verbose parsed url   href: 'commander@^2.2.0' }
+220 verbose cache add name="commander" spec="^2.2.0" args=["commander","^2.2.0"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '^2.2.0',
+221 verbose parsed url   path: '^2.2.0',
+221 verbose parsed url   href: '^2.2.0' }
+222 verbose addNamed [ 'commander', '^2.2.0' ]
+223 verbose addNamed [ null, null ]
+224 silly lockFile 2507b88a-commander-2-2-0 commander@^2.2.0
+225 verbose lock commander@^2.2.0 /Users/noevil/.npm/2507b88a-commander-2-2-0.lock
+226 verbose cache add [ 'jsonlint@^1.6.0', null ]
+227 verbose cache add name=undefined spec="jsonlint@^1.6.0" args=["jsonlint@^1.6.0",null]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: 'jsonlint@^1.6.0',
+228 verbose parsed url   path: 'jsonlint@^1.6.0',
+228 verbose parsed url   href: 'jsonlint@^1.6.0' }
+229 verbose cache add name="jsonlint" spec="^1.6.0" args=["jsonlint","^1.6.0"]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '^1.6.0',
+230 verbose parsed url   path: '^1.6.0',
+230 verbose parsed url   href: '^1.6.0' }
+231 verbose addNamed [ 'jsonlint', '^1.6.0' ]
+232 verbose addNamed [ null, null ]
+233 silly lockFile 71428d29-jsonlint-1-6-0 jsonlint@^1.6.0
+234 verbose lock jsonlint@^1.6.0 /Users/noevil/.npm/71428d29-jsonlint-1-6-0.lock
+235 verbose url raw cli-spinner
+236 verbose url resolving [ 'https://registry.npmjs.org/', './cli-spinner' ]
+237 verbose url resolved https://registry.npmjs.org/cli-spinner
+238 info trying registry request attempt 1 at 19:23:33
+239 http GET https://registry.npmjs.org/cli-spinner
+240 info addNameTag [ 'chalk', '^0.4.0' ]
+241 info addNameTag [ 'colors', '^0.6.2' ]
+242 info addNameTag [ 'commander', '^2.2.0' ]
+243 verbose cache add [ 'open@0.0.5', null ]
+244 verbose cache add name=undefined spec="open@0.0.5" args=["open@0.0.5",null]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: 'open@0.0.5',
+245 verbose parsed url   path: 'open@0.0.5',
+245 verbose parsed url   href: 'open@0.0.5' }
+246 verbose cache add name="open" spec="0.0.5" args=["open","0.0.5"]
+247 verbose parsed url { protocol: null,
+247 verbose parsed url   slashes: null,
+247 verbose parsed url   auth: null,
+247 verbose parsed url   host: null,
+247 verbose parsed url   port: null,
+247 verbose parsed url   hostname: null,
+247 verbose parsed url   hash: null,
+247 verbose parsed url   search: null,
+247 verbose parsed url   query: null,
+247 verbose parsed url   pathname: '0.0.5',
+247 verbose parsed url   path: '0.0.5',
+247 verbose parsed url   href: '0.0.5' }
+248 verbose addNamed [ 'open', '0.0.5' ]
+249 verbose addNamed [ '0.0.5', '0.0.5' ]
+250 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+251 verbose lock open@0.0.5 /Users/noevil/.npm/c6d41519-open-0-0-5.lock
+252 verbose cache add [ 'read@^1.0.5', null ]
+253 verbose cache add name=undefined spec="read@^1.0.5" args=["read@^1.0.5",null]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: 'read@^1.0.5',
+254 verbose parsed url   path: 'read@^1.0.5',
+254 verbose parsed url   href: 'read@^1.0.5' }
+255 verbose cache add name="read" spec="^1.0.5" args=["read","^1.0.5"]
+256 verbose parsed url { protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: '^1.0.5',
+256 verbose parsed url   path: '^1.0.5',
+256 verbose parsed url   href: '^1.0.5' }
+257 verbose addNamed [ 'read', '^1.0.5' ]
+258 verbose addNamed [ null, null ]
+259 silly lockFile b18dd779-read-1-0-5 read@^1.0.5
+260 verbose lock read@^1.0.5 /Users/noevil/.npm/b18dd779-read-1-0-5.lock
+261 verbose cache add [ 'resume-schema@latest', null ]
+262 verbose cache add name=undefined spec="resume-schema@latest" args=["resume-schema@latest",null]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: 'resume-schema@latest',
+263 verbose parsed url   path: 'resume-schema@latest',
+263 verbose parsed url   href: 'resume-schema@latest' }
+264 verbose cache add name="resume-schema" spec="latest" args=["resume-schema","latest"]
+265 verbose parsed url { protocol: null,
+265 verbose parsed url   slashes: null,
+265 verbose parsed url   auth: null,
+265 verbose parsed url   host: null,
+265 verbose parsed url   port: null,
+265 verbose parsed url   hostname: null,
+265 verbose parsed url   hash: null,
+265 verbose parsed url   search: null,
+265 verbose parsed url   query: null,
+265 verbose parsed url   pathname: 'latest',
+265 verbose parsed url   path: 'latest',
+265 verbose parsed url   href: 'latest' }
+266 verbose addNamed [ 'resume-schema', 'latest' ]
+267 verbose addNamed [ null, null ]
+268 silly lockFile 2450f1d3-resume-schema-latest resume-schema@latest
+269 verbose lock resume-schema@latest /Users/noevil/.npm/2450f1d3-resume-schema-latest.lock
+270 verbose cache add [ 'resume-to-html@latest', null ]
+271 verbose cache add name=undefined spec="resume-to-html@latest" args=["resume-to-html@latest",null]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'resume-to-html@latest',
+272 verbose parsed url   path: 'resume-to-html@latest',
+272 verbose parsed url   href: 'resume-to-html@latest' }
+273 verbose cache add name="resume-to-html" spec="latest" args=["resume-to-html","latest"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: 'latest',
+274 verbose parsed url   path: 'latest',
+274 verbose parsed url   href: 'latest' }
+275 verbose addNamed [ 'resume-to-html', 'latest' ]
+276 verbose addNamed [ null, null ]
+277 silly lockFile 8998f568-resume-to-html-latest resume-to-html@latest
+278 verbose lock resume-to-html@latest /Users/noevil/.npm/8998f568-resume-to-html-latest.lock
+279 verbose cache add [ 'resume-to-text@latest', null ]
+280 verbose cache add name=undefined spec="resume-to-text@latest" args=["resume-to-text@latest",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'resume-to-text@latest',
+281 verbose parsed url   path: 'resume-to-text@latest',
+281 verbose parsed url   href: 'resume-to-text@latest' }
+282 verbose cache add name="resume-to-text" spec="latest" args=["resume-to-text","latest"]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: 'latest',
+283 verbose parsed url   path: 'latest',
+283 verbose parsed url   href: 'latest' }
+284 verbose addNamed [ 'resume-to-text', 'latest' ]
+285 verbose addNamed [ null, null ]
+286 silly lockFile aa023866-resume-to-text-latest resume-to-text@latest
+287 verbose lock resume-to-text@latest /Users/noevil/.npm/aa023866-resume-to-text-latest.lock
+288 verbose cache add [ 'superagent@^0.18.0', null ]
+289 verbose cache add name=undefined spec="superagent@^0.18.0" args=["superagent@^0.18.0",null]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: 'superagent@^0.18.0',
+290 verbose parsed url   path: 'superagent@^0.18.0',
+290 verbose parsed url   href: 'superagent@^0.18.0' }
+291 verbose cache add name="superagent" spec="^0.18.0" args=["superagent","^0.18.0"]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '^0.18.0',
+292 verbose parsed url   path: '^0.18.0',
+292 verbose parsed url   href: '^0.18.0' }
+293 verbose addNamed [ 'superagent', '^0.18.0' ]
+294 verbose addNamed [ null, null ]
+295 silly lockFile db939853-superagent-0-18-0 superagent@^0.18.0
+296 verbose lock superagent@^0.18.0 /Users/noevil/.npm/db939853-superagent-0-18-0.lock
+297 verbose cache add [ 'terminal-menu@^0.3.2', null ]
+298 verbose cache add name=undefined spec="terminal-menu@^0.3.2" args=["terminal-menu@^0.3.2",null]
+299 verbose parsed url { protocol: null,
+299 verbose parsed url   slashes: null,
+299 verbose parsed url   auth: null,
+299 verbose parsed url   host: null,
+299 verbose parsed url   port: null,
+299 verbose parsed url   hostname: null,
+299 verbose parsed url   hash: null,
+299 verbose parsed url   search: null,
+299 verbose parsed url   query: null,
+299 verbose parsed url   pathname: 'terminal-menu@^0.3.2',
+299 verbose parsed url   path: 'terminal-menu@^0.3.2',
+299 verbose parsed url   href: 'terminal-menu@^0.3.2' }
+300 verbose cache add name="terminal-menu" spec="^0.3.2" args=["terminal-menu","^0.3.2"]
+301 verbose parsed url { protocol: null,
+301 verbose parsed url   slashes: null,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: null,
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: null,
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: '^0.3.2',
+301 verbose parsed url   path: '^0.3.2',
+301 verbose parsed url   href: '^0.3.2' }
+302 verbose addNamed [ 'terminal-menu', '^0.3.2' ]
+303 verbose addNamed [ null, null ]
+304 silly lockFile 34535a64-terminal-menu-0-3-2 terminal-menu@^0.3.2
+305 verbose lock terminal-menu@^0.3.2 /Users/noevil/.npm/34535a64-terminal-menu-0-3-2.lock
+306 info addNameTag [ 'jsonlint', '^1.6.0' ]
+307 info addNameTag [ 'read', '^1.0.5' ]
+308 info addNameTag [ 'resume-schema', 'latest' ]
+309 info addNameTag [ 'resume-to-html', 'latest' ]
+310 info addNameTag [ 'resume-to-text', 'latest' ]
+311 info addNameTag [ 'superagent', '^0.18.0' ]
+312 info addNameTag [ 'terminal-menu', '^0.3.2' ]
+313 verbose url raw jsonlint
+314 verbose url resolving [ 'https://registry.npmjs.org/', './jsonlint' ]
+315 verbose url resolved https://registry.npmjs.org/jsonlint
+316 info trying registry request attempt 1 at 19:23:33
+317 http GET https://registry.npmjs.org/jsonlint
+318 verbose url raw resume-schema
+319 verbose url resolving [ 'https://registry.npmjs.org/', './resume-schema' ]
+320 verbose url resolved https://registry.npmjs.org/resume-schema
+321 info trying registry request attempt 1 at 19:23:33
+322 http GET https://registry.npmjs.org/resume-schema
+323 verbose url raw resume-to-html
+324 verbose url resolving [ 'https://registry.npmjs.org/', './resume-to-html' ]
+325 verbose url resolved https://registry.npmjs.org/resume-to-html
+326 info trying registry request attempt 1 at 19:23:33
+327 http GET https://registry.npmjs.org/resume-to-html
+328 verbose url raw resume-to-text
+329 verbose url resolving [ 'https://registry.npmjs.org/', './resume-to-text' ]
+330 verbose url resolved https://registry.npmjs.org/resume-to-text
+331 info trying registry request attempt 1 at 19:23:33
+332 http GET https://registry.npmjs.org/resume-to-text
+333 verbose url raw superagent
+334 verbose url resolving [ 'https://registry.npmjs.org/', './superagent' ]
+335 verbose url resolved https://registry.npmjs.org/superagent
+336 info trying registry request attempt 1 at 19:23:33
+337 http GET https://registry.npmjs.org/superagent
+338 verbose url raw open/0.0.5
+339 verbose url resolving [ 'https://registry.npmjs.org/', './open/0.0.5' ]
+340 verbose url resolved https://registry.npmjs.org/open/0.0.5
+341 info trying registry request attempt 1 at 19:23:33
+342 http GET https://registry.npmjs.org/open/0.0.5
+343 verbose url raw terminal-menu
+344 verbose url resolving [ 'https://registry.npmjs.org/', './terminal-menu' ]
+345 verbose url resolved https://registry.npmjs.org/terminal-menu
+346 info trying registry request attempt 1 at 19:23:33
+347 http GET https://registry.npmjs.org/terminal-menu
+348 verbose url raw async
+349 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+350 verbose url resolved https://registry.npmjs.org/async
+351 info trying registry request attempt 1 at 19:23:33
+352 verbose etag "7YBKWAVH6M3E4UN0JL9A85JDJ"
+353 http GET https://registry.npmjs.org/async
+354 verbose url raw chalk
+355 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+356 verbose url resolved https://registry.npmjs.org/chalk
+357 info trying registry request attempt 1 at 19:23:33
+358 verbose etag "E3IKX45EGVYXSSA8U7ME1JEJ4"
+359 http GET https://registry.npmjs.org/chalk
+360 verbose url raw colors
+361 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+362 verbose url resolved https://registry.npmjs.org/colors
+363 info trying registry request attempt 1 at 19:23:33
+364 verbose etag "B9D8N8DMNF7PPXGIBQQ74H802"
+365 http GET https://registry.npmjs.org/colors
+366 verbose url raw commander
+367 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+368 verbose url resolved https://registry.npmjs.org/commander
+369 info trying registry request attempt 1 at 19:23:33
+370 verbose etag "1396097782000"
+371 http GET https://registry.npmjs.org/commander
+372 verbose url raw read
+373 verbose url resolving [ 'https://registry.npmjs.org/', './read' ]
+374 verbose url resolved https://registry.npmjs.org/read
+375 info trying registry request attempt 1 at 19:23:33
+376 verbose etag "7OHB576HMKURMBVYS559U6KJN"
+377 http GET https://registry.npmjs.org/read
+378 http 200 https://registry.npmjs.org/jsonlint
+379 silly registry.get cb [ 200,
+379 silly registry.get   { date: 'Tue, 26 Aug 2014 11:23:33 GMT',
+379 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+379 silly registry.get     etag: '"ALPZVTCAEPVWJGPUF0FZXQTX9"',
+379 silly registry.get     'content-type': 'application/json',
+379 silly registry.get     'cache-control': 'max-age=60',
+379 silly registry.get     'content-length': '19985',
+379 silly registry.get     'accept-ranges': 'bytes',
+379 silly registry.get     via: '1.1 varnish',
+379 silly registry.get     age: '2366',
+379 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+379 silly registry.get     'x-cache': 'HIT',
+379 silly registry.get     'x-cache-hits': '6',
+379 silly registry.get     'x-timer': 'S1409052213.589859,VS0,VE0',
+379 silly registry.get     vary: 'Accept',
+379 silly registry.get     'keep-alive': 'timeout=10, max=50',
+379 silly registry.get     connection: 'Keep-Alive' } ]
+380 silly lockFile 71428d29-jsonlint-1-6-0 jsonlint@^1.6.0
+381 silly lockFile 71428d29-jsonlint-1-6-0 jsonlint@^1.6.0
+382 verbose about to build /Users/noevil/Sync/Project/resume/node_modules/resume-cli
+383 info /Users/noevil/Sync/Project/resume/node_modules/resume-cli unbuild
+384 verbose from cache /Users/noevil/Sync/Project/resume/node_modules/resume-cli/package.json
+385 info preuninstall resume-cli@0.3.9
+386 info uninstall resume-cli@0.3.9
+387 verbose true,/Users/noevil/Sync/Project/resume/node_modules,/Users/noevil/Sync/Project/resume/node_modules unbuild resume-cli@0.3.9
+388 verbose /Users/noevil/Sync/Project/resume/node_modules/.bin,[object Object] binRoot
+389 info postuninstall resume-cli@0.3.9
+390 error Error: No compatible version found: jsonlint@'^1.6.0'
+390 error Valid install targets:
+390 error ["1.0.0","1.0.1","1.1.0","1.1.1","1.2.0","1.2.1","1.3.0","1.3.1","1.3.2","1.4.0","1.4.1","1.5.0","1.5.1","1.6.0","1.6.1","1.6.2"]
+390 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+390 error     at /usr/local/lib/node_modules/npm/lib/cache.js:641:10
+390 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+390 error     at Object.oncomplete (fs.js:107:15)
+391 error If you need help, you may report this log at:
+391 error     <http://github.com/isaacs/npm/issues>
+391 error or email it to:
+391 error     <npm-@googlegroups.com>
+392 error System Darwin 13.3.0
+393 error command "node" "/usr/local/bin/npm" "install" "resume-cli"
+394 error cwd /Users/noevil/Sync/Project/resume
+395 error node -v v0.10.12
+396 error npm -v 1.2.32
+397 verbose exit [ 1, true ]
